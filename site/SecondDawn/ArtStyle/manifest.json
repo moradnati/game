@@ -1170,42 +1170,42 @@
        "type": "anim",
        "src": "media/anim/nokti__v0.12__idle.webp",
        "label": "Idle",
-       "w": 264,
+       "w": 219,
        "h": 62
       },
       {
        "type": "anim",
        "src": "media/anim/nokti__v0.12__walk.webp",
        "label": "Walk",
-       "w": 264,
+       "w": 219,
        "h": 62
       },
       {
        "type": "anim",
        "src": "media/anim/nokti__v0.12__work.webp",
        "label": "Work",
-       "w": 264,
+       "w": 219,
        "h": 62
       },
       {
        "type": "anim",
        "src": "media/anim/nokti__v0.12__eat.webp",
        "label": "Eat",
-       "w": 264,
+       "w": 219,
        "h": 62
       },
       {
        "type": "anim",
        "src": "media/anim/nokti__v0.12__chat.webp",
        "label": "Chat",
-       "w": 264,
+       "w": 219,
        "h": 62
       },
       {
        "type": "anim",
        "src": "media/anim/nokti__v0.12__sleep.webp",
        "label": "Sleep",
-       "w": 264,
+       "w": 219,
        "h": 62
       }
      ]
