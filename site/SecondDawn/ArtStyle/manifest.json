@@ -5,8 +5,46 @@
    "id": "civ:sporeriders",
    "name": "Sporeriders",
    "group": "Peoples",
-   "cover": "media/ill/civ_sporeriders.png",
+   "cover": "media/anim/sporeriders__v0.19__ride_idle.webp",
    "versions": [
+    {
+     "version": "0.19",
+     "date": "2026-11-19",
+     "title": "Riding a hornback",
+     "author": "Claude, after Netanel and Ariel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19__ride_idle.webp",
+       "label": "Riding: standing",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19__ride_walk.webp",
+       "label": "Riding: on the move",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19__ride_wave.webp",
+       "label": "Riding: a cowboy wave",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19__ride_pipe.webp",
+       "label": "Riding: a mushroom pipe",
+       "w": 300,
+       "h": 340
+      }
+     ],
+     "notes": "A Sporerider rides a tamed hornback by day: the little pink link mushroom grows on the beetle's side and the rider steers it (at night it shrinks away in three seconds and the rider climbs down). Every fifteen seconds the rider shows off for five: a cowboy wave, or a puff on a mushroom pipe."
+    },
     {
      "version": "0.13",
      "date": "2026-11-19",
@@ -262,8 +300,60 @@
    "id": "civ:tidekin",
    "name": "Tidekin",
    "group": "Peoples",
-   "cover": "media/anim/tidekin__v0.15__idle.webp",
+   "cover": "media/anim/tidekin__v0.19__idle.webp",
    "versions": [
+    {
+     "version": "0.19",
+     "date": "2026-11-19",
+     "title": "Merfolk",
+     "author": "Claude, after Netanel and Ariel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__idle.webp",
+       "label": "Idle",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__walk.webp",
+       "label": "Walk",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__work.webp",
+       "label": "Work",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__eat.webp",
+       "label": "Eat",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__chat.webp",
+       "label": "Chat",
+       "w": 300,
+       "h": 340
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.19__sleep.webp",
+       "label": "Sleep",
+       "w": 300,
+       "h": 340
+      }
+     ],
+     "notes": "Ariel and Netanel: the Tidekin are merfolk. Arms, a head with gills that open and close, and a fish tail instead of legs. They belong in the sea; on land they hop along on the tail like a worm, curling and pushing, and pull with their arms."
+    },
     {
      "version": "0.15",
      "date": "2026-11-19",
