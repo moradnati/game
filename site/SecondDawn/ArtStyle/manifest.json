@@ -5,8 +5,46 @@
    "id": "civ:sporeriders",
    "name": "Sporeriders",
    "group": "Peoples",
-   "cover": "media/anim/sporeriders__v0.19__ride_idle.webp",
+   "cover": "media/anim/sporeriders__v0.19c__ride_idle.webp",
    "versions": [
+    {
+     "version": "0.19c",
+     "date": "2026-11-20",
+     "title": "Riding, at the beetle's old size",
+     "author": "Claude, after Ariel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19c__ride_idle.webp",
+       "label": "Riding: standing",
+       "w": 300,
+       "h": 177
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19c__ride_walk.webp",
+       "label": "Riding: on the move",
+       "w": 300,
+       "h": 177
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19c__ride_wave.webp",
+       "label": "Riding: a cowboy wave",
+       "w": 300,
+       "h": 177
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.19c__ride_pipe.webp",
+       "label": "Riding: a mushroom pipe",
+       "w": 300,
+       "h": 177
+      }
+     ],
+     "notes": "Ariel asked for the hornback back at its earlier size, so the rider sits on a beetle about as long as itself. Climbing down: a button on top of the colonist card, or M."
+    },
     {
      "version": "0.19",
      "date": "2026-11-19",
@@ -19,28 +57,28 @@
        "src": "media/anim/sporeriders__v0.19__ride_idle.webp",
        "label": "Riding: standing",
        "w": 300,
-       "h": 340
+       "h": 120
       },
       {
        "type": "anim",
        "src": "media/anim/sporeriders__v0.19__ride_walk.webp",
        "label": "Riding: on the move",
        "w": 300,
-       "h": 340
+       "h": 120
       },
       {
        "type": "anim",
        "src": "media/anim/sporeriders__v0.19__ride_wave.webp",
        "label": "Riding: a cowboy wave",
        "w": 300,
-       "h": 340
+       "h": 120
       },
       {
        "type": "anim",
        "src": "media/anim/sporeriders__v0.19__ride_pipe.webp",
        "label": "Riding: a mushroom pipe",
        "w": 300,
-       "h": 340
+       "h": 120
       }
      ],
      "notes": "A Sporerider rides a tamed hornback by day: the little pink link mushroom grows on the beetle's side and the rider steers it (at night it shrinks away in three seconds and the rider climbs down). Every fifteen seconds the rider shows off for five: a cowboy wave, or a puff on a mushroom pipe."
