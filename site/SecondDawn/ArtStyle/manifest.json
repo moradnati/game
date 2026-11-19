@@ -906,8 +906,46 @@
    "id": "civ:kuppa",
    "name": "Kuppa",
    "group": "Peoples",
-   "cover": "media/anim/kuppa__v0.15__idle.webp",
+   "cover": "media/anim/kuppa__v0.16__juggle.webp",
    "versions": [
+    {
+     "version": "0.16",
+     "date": "2026-11-19",
+     "title": "Idle acrobatics",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.16__juggle.webp",
+       "label": "Idle: juggling each other",
+       "w": 248,
+       "h": 262
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.16__tower.webp",
+       "label": "Idle: a wobbly tower",
+       "w": 248,
+       "h": 262
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.16__ring.webp",
+       "label": "Idle: ring dance",
+       "w": 248,
+       "h": 262
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.16__seesaw.webp",
+       "label": "Idle: seesaw toss",
+       "w": 248,
+       "h": 262
+      }
+     ],
+     "notes": "When a Kuppa has nothing to do, its seven bodies play: they juggle each other, build a tower that nearly falls, dance in a ring or toss one another with a seesaw. Each body also has its own randomly generated portrait in the colonist card."
+    },
     {
      "version": "0.15",
      "date": "2026-11-19",
