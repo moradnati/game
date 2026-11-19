@@ -101,8 +101,60 @@
    "id": "civ:humans",
    "name": "Humans",
    "group": "Peoples",
-   "cover": "media/anim/humans__v0.12__idle.webp",
+   "cover": "media/anim/humans__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__work.webp",
+       "label": "Work",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 182,
+       "h": 246
+      }
+     ],
+     "notes": "Fixed: arms, work and eating now happen in front of the body (they were done with the back). Sleeps lying down. Legs with knees, and the body rises as the legs pass, so the walk no longer looks like a dance. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -210,8 +262,60 @@
    "id": "civ:tidekin",
    "name": "Tidekin",
    "group": "Peoples",
-   "cover": "media/anim/tidekin__v0.12__idle.webp",
+   "cover": "media/anim/tidekin__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__work.webp",
+       "label": "Work",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 182,
+       "h": 246
+      }
+     ],
+     "notes": "Arms and eating in front of the body; sleeps lying down; walk with knees. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -319,8 +423,60 @@
    "id": "civ:geodes",
    "name": "Geodes",
    "group": "Peoples",
-   "cover": "media/anim/geodes__v0.12__idle.webp",
+   "cover": "media/anim/geodes__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__work.webp",
+       "label": "Work",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 182,
+       "h": 246
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 182,
+       "h": 246
+      }
+     ],
+     "notes": "Arms and eating in front of the body; sleeps lying down; walk with knees. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -428,8 +584,60 @@
    "id": "civ:pufflings",
    "name": "Pufflings",
    "group": "Peoples",
-   "cover": "media/anim/pufflings__v0.12__idle.webp",
+   "cover": "media/anim/pufflings__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 163,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 163,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__work.webp",
+       "label": "Work",
+       "w": 163,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 163,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 163,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 163,
+       "h": 198
+      }
+     ],
+     "notes": "Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -537,8 +745,60 @@
    "id": "civ:shellsmiths",
    "name": "Shellsmiths",
    "group": "Peoples",
-   "cover": "media/anim/shellsmiths__v0.12__idle.webp",
+   "cover": "media/anim/shellsmiths__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 174,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 174,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__work.webp",
+       "label": "Work",
+       "w": 174,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 174,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 174,
+       "h": 198
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 174,
+       "h": 198
+      }
+     ],
+     "notes": "Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -646,8 +906,60 @@
    "id": "civ:kuppa",
    "name": "Kuppa",
    "group": "Peoples",
-   "cover": "media/anim/kuppa__v0.12__idle.webp",
+   "cover": "media/anim/kuppa__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 214,
+       "h": 210
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 214,
+       "h": 210
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__work.webp",
+       "label": "Work",
+       "w": 214,
+       "h": 210
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 214,
+       "h": 210
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 214,
+       "h": 210
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 214,
+       "h": 210
+      }
+     ],
+     "notes": "Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -755,8 +1067,60 @@
    "id": "civ:nokti",
    "name": "Nokti",
    "group": "Peoples",
-   "cover": "media/anim/nokti__v0.12__idle.webp",
+   "cover": "media/anim/nokti__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 300,
+       "h": 143
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 300,
+       "h": 143
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__work.webp",
+       "label": "Work",
+       "w": 300,
+       "h": 143
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 300,
+       "h": 143
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 300,
+       "h": 143
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 300,
+       "h": 143
+      }
+     ],
+     "notes": "Redrawn as what it is: a machine, an electric centipede robot. Riveted metal plates, glowing couplings with current running down the body, thin jointed steel legs, a visor that scans, antennae that spark. The lights go out when it sleeps. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -864,8 +1228,74 @@
    "id": "civ:gourdlings",
    "name": "Gourdlings",
    "group": "Peoples",
-   "cover": "media/anim/gourdlings__v0.12__idle.webp",
+   "cover": "media/anim/gourdlings__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__work.webp",
+       "label": "Work",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__bruised.webp",
+       "label": "Bruised (half a life of blows)",
+       "w": 166,
+       "h": 230
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.15__warrior.webp",
+       "label": "Black: a warrior",
+       "w": 166,
+       "h": 230
+      }
+     ],
+     "notes": "Root feet much shorter and thinner, short roots when asleep, shorter tendril arms. Avocado colours of every shade. Every blow leaves a bruise that never fades; a Gourdling that took enough of them turns black all over, and a black Gourdling is known as a warrior (tougher, hits harder). Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -973,8 +1403,60 @@
    "id": "civ:shellmonks",
    "name": "Shellmonks",
    "group": "Peoples",
-   "cover": "media/anim/shellmonks__v0.12__idle.webp",
+   "cover": "media/anim/shellmonks__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 162,
+       "h": 214
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 162,
+       "h": 214
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__work.webp",
+       "label": "Work",
+       "w": 162,
+       "h": 214
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 162,
+       "h": 214
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 162,
+       "h": 214
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 162,
+       "h": 214
+      }
+     ],
+     "notes": "Speaks only in conversation; thinks in a cloud when idle. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -1103,6 +1585,58 @@
       }
      ],
      "notes": "The shell should shift like a rainbow leaf beetle: dark green, light green and purple depending on the angle. The mouth runs around the body on a belt; Ariel prefers a mouth that travels along the belt and dilates open like an iris (rather than tooth-like plates), so the three hands can put things in from any side. No eyes: echolocation from a tufted hammer that vibrates, a dish that listens and a resonance box (drum) that amplifies. The hammer winds up and releases in one strike, then has to recharge \u2014 a possible limitation."
+    },
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 273,
+       "h": 226
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 273,
+       "h": 226
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__work.webp",
+       "label": "Work",
+       "w": 273,
+       "h": 226
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 273,
+       "h": 226
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 273,
+       "h": 226
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 273,
+       "h": 226
+      }
+     ],
+     "notes": "Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
     },
     {
      "version": "0.14.1",
@@ -1264,8 +1798,60 @@
    "id": "civ:manahorns",
    "name": "Manahorns",
    "group": "Peoples",
-   "cover": "media/anim/manahorns__v0.12__idle.webp",
+   "cover": "media/anim/manahorns__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 232,
+       "h": 238
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 232,
+       "h": 238
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__work.webp",
+       "label": "Work",
+       "w": 232,
+       "h": 238
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 232,
+       "h": 238
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 232,
+       "h": 238
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 232,
+       "h": 238
+      }
+     ],
+     "notes": "Lies down to sleep with the legs folded. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -1373,8 +1959,60 @@
    "id": "civ:twintrunks",
    "name": "Twintrunks",
    "group": "Peoples",
-   "cover": "media/anim/twintrunks__v0.12__idle.webp",
+   "cover": "media/anim/twintrunks__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 300,
+       "h": 278
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 300,
+       "h": 278
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__work.webp",
+       "label": "Work",
+       "w": 300,
+       "h": 278
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 300,
+       "h": 278
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 300,
+       "h": 278
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 300,
+       "h": 278
+      }
+     ],
+     "notes": "Lies down to sleep, trunks curled. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
@@ -1482,8 +2120,60 @@
    "id": "civ:weavers",
    "name": "Weavers",
    "group": "Peoples",
-   "cover": "media/anim/weavers__v0.12__idle.webp",
+   "cover": "media/anim/weavers__v0.15__idle.webp",
    "versions": [
+    {
+     "version": "0.15",
+     "date": "2026-11-19",
+     "title": "Second art pass: double resolution",
+     "author": "Claude, after Netanel's review",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__idle.webp",
+       "label": "Idle",
+       "w": 220,
+       "h": 290
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__walk.webp",
+       "label": "Walk",
+       "w": 220,
+       "h": 290
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__work.webp",
+       "label": "Work",
+       "w": 220,
+       "h": 290
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__eat.webp",
+       "label": "Eat",
+       "w": 220,
+       "h": 290
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__chat.webp",
+       "label": "Chat",
+       "w": 220,
+       "h": 290
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.15__sleep.webp",
+       "label": "Sleep",
+       "w": 220,
+       "h": 290
+      }
+     ],
+     "notes": "Thinner legs; rests low between folded legs when asleep. Twice the resolution: finer pixels and thin outlines. A smoother walk. When idle, a thought cloud (different from the speech bubble). More colour variety between individuals."
+    },
     {
      "version": "0.12",
      "date": "2026-11-19",
