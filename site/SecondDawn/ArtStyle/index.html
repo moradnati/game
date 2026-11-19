@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Dawn Art Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* one visual world: the game at night — moss-dark ground, amber UI, parchment for sketches */
+  --bg: #0f1714;
+  --panel: #16211c;
+  --line: #2a3a32;
+  --ink: #e9efe6;
+  --muted: #9fb0a5;
+  --accent: #e8b04a;
+  --grass: #4f8a5c;
+  --paper: #f1ead8;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+  color-scheme: dark;
+  /* layout: catalogue grid of subjects; each subject opens a timeline of its versions, newest first */
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+a { color: var(--accent); }
+button { font: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+header.top { border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #13201a, var(--bg)); }
+header.top .wrap { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding-top: 28px; padding-bottom: 22px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 4vw, 46px); line-height: 1.05; margin: 0 0 8px; text-wrap: balance; letter-spacing: -0.01em; }
+h1 span { color: var(--accent); }
+.lede { color: var(--muted); max-width: 62ch; margin: 0; }
+.stats { display: flex; gap: 22px; }
+.stat b { display: block; font-family: var(--display); font-size: 28px; font-variant-numeric: tabular-nums; color: var(--ink); }
+.stat span { color: var(--muted); font-size: 13px; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 16px 0; position: sticky; top: 0; background: var(--bg); z-index: 5; border-bottom: 1px solid var(--line); }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: 14px; }
+.chip[aria-pressed="true"] { background: var(--accent); color: #1a1408; border-color: var(--accent); font-weight: 700; }
+.chip .n { color: inherit; opacity: .65; font-variant-numeric: tabular-nums; margin-left: 4px; }
+.search { margin-left: auto; background: var(--panel); border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 7px 12px; min-width: 220px; }
+.stage-pick { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+.swatch { width: 22px; height: 22px; border-radius: 5px; border: 2px solid var(--line); cursor: pointer; padding: 0; }
+.swatch[aria-pressed="true"] { border-color: var(--accent); }
+section.latest { padding: 22px 0 6px; }
+h2 { font-family: var(--display); font-size: 22px; margin: 0 0 12px; text-wrap: balance; }
+.latest-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.latest-card { display: grid; grid-template-columns: 88px 1fr; gap: 12px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px; cursor: pointer; text-align: left; color: var(--ink); }
+.latest-card img { width: 88px; height: 72px; object-fit: contain; image-rendering: pixelated; background: var(--stage); border-radius: 6px; }
+.latest-card .k { color: var(--muted); font-size: 13px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; padding: 18px 0 40px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; cursor: pointer; text-align: left; color: var(--ink); padding: 0; display: flex; flex-direction: column; }
+.card:hover { border-color: var(--accent); }
+.card .pic { height: 150px; display: grid; place-items: center; background: var(--stage); }
+.card .pic img { max-width: 92%; max-height: 136px; image-rendering: pixelated; }
+.card .pic img.smooth { image-rendering: auto; }
+.card .meta { padding: 10px 12px 12px; display: grid; gap: 4px; }
+.card .name { font-weight: 700; }
+.card .sub { color: var(--muted); font-size: 13px; }
+.kinds { display: flex; flex-wrap: wrap; gap: 4px; }
+.kind { font-family: var(--mono); font-size: 11px; border-radius: 4px; padding: 1px 6px; background: #22312a; color: var(--muted); }
+.kind.Sketch { background: #3a2f18; color: #f3d38a; }
+.kind.Pixel { background: #1f2e3a; color: #9fd0f0; }
+.kind.Illustration { background: #2f2340; color: #d8b8f4; }
+/* detail */
+.detail { padding: 22px 0 60px; }
+.back { background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.dhead { display: flex; flex-wrap: wrap; gap: 16px; align-items: baseline; margin: 16px 0 6px; }
+.dhead h2 { font-size: 34px; margin: 0; }
+.dhead .group { color: var(--muted); }
+.evo { display: flex; gap: 10px; overflow-x: auto; padding: 10px 0 18px; align-items: end; }
+.evo figure { margin: 0; text-align: center; flex: 0 0 auto; }
+.evo img { height: 110px; max-width: 220px; object-fit: contain; image-rendering: pixelated; background: var(--stage); border-radius: 8px; padding: 6px; }
+.evo img.smooth { image-rendering: auto; }
+.evo figcaption { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.evo .arrow { color: var(--accent); align-self: center; font-size: 20px; }
+.version { border-top: 1px solid var(--line); padding: 20px 0; display: grid; grid-template-columns: 170px 1fr; gap: 20px; }
+.vside .v { font-family: var(--mono); font-size: 20px; color: var(--accent); }
+.vside .d { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.vside .a { font-size: 14px; }
+.vmain h3 { font-family: var(--display); font-size: 20px; margin: 0 0 6px; }
+.vmain p { color: var(--muted); max-width: 70ch; margin: 0 0 12px; }
+.media { display: flex; flex-wrap: wrap; gap: 12px; }
+.tile { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px; display: grid; gap: 6px; justify-items: center; }
+.tile .st { background: var(--stage); border-radius: 6px; display: grid; place-items: center; padding: 8px; min-width: 120px; min-height: 120px; }
+.tile img { image-rendering: pixelated; display: block; }
+.tile img.smooth { image-rendering: auto; }
+.tile.sketch .st { background: var(--paper); }
+.tile.sketch img { max-height: 340px; max-width: min(560px, 80vw); cursor: zoom-in; }
+.tile figcaption { font-size: 13px; color: var(--muted); max-width: 300px; text-align: center; }
+.empty { color: var(--muted); padding: 30px 0; }
+.lightbox { position: fixed; inset: 0; background: rgba(5,8,7,.92); display: none; place-items: center; z-index: 50; cursor: zoom-out; padding: 20px; }
+.lightbox.on { display: grid; }
+.lightbox img { max-width: 100%; max-height: 100%; }
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding: 18px 0 30px; }
+@media (max-width: 700px) {
+  header.top .wrap { grid-template-columns: 1fr; }
+  .version { grid-template-columns: 1fr; gap: 8px; }
+  .search { margin-left: 0; min-width: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+</head>
+<body style="--stage: #4f8a5c">
+<header class="top">
+  <div class="wrap">
+    <div>
+      <h1>Second Dawn <span>Art Archive</span></h1>
+      <p class="lede">Every people, animal, home and item of the game, with each of its versions kept: Ariel's sketches, the drawings, and the animations exactly as they run in the game. Newest version first.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<main class="wrap">
+  <div class="bar" id="bar">
+    <div id="groups" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+    <div class="stage-pick" aria-label="Background behind the animations">
+      Stage
+      <button class="swatch" style="background:#4f8a5c" data-stage="#4f8a5c" aria-pressed="true" title="Grass, like the game"></button>
+      <button class="swatch" style="background:#22303a" data-stage="#22303a" aria-pressed="false" title="Night"></button>
+      <button class="swatch" style="background:#f1ead8" data-stage="#f1ead8" aria-pressed="false" title="Paper"></button>
+    </div>
+    <label for="q" style="position:absolute;left:-9999px">Search</label>
+    <input id="q" class="search" type="search" placeholder="Search: echofolk, beetle, basket…">
+  </div>
+  <div id="view"></div>
+</main>
+<footer><div class="wrap">Built from the game's own drawing code (tools/archive in the project). New sketches go into art/refs and art/archive/sketches.json, then the archive is rebuilt.</div></footer>
+<div class="lightbox" id="lb" role="dialog" aria-label="Sketch, full size"><img alt=""></div>
+<script>
+let M = null, group = "Peoples", query = "";
+const view = document.getElementById("view");
+const slug = id => id.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const smooth = m => m.type === "image" || m.type === "sketch";
+function kindClass(k) { return k.startsWith("Pixel") ? "Pixel" : k; }
+
+function stats() {
+  let versions = 0, sketches = 0, anims = 0;
+  for (const s of M.subjects) for (const v of s.versions) { versions++; if (v.kind === "Sketch") sketches++; anims += v.media.filter(m => m.type === "anim").length; }
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${M.subjects.length}</b><span>subjects</span></div>` +
+    `<div class="stat"><b>${versions}</b><span>versions</span></div>` +
+    `<div class="stat"><b>${anims}</b><span>animations</span></div>` +
+    `<div class="stat"><b>${sketches}</b><span>sketches</span></div>`;
+}
+
+function groups() {
+  const g = document.getElementById("groups");
+  g.innerHTML = M.groups.map(x => `<button class="chip" data-g="${x}" aria-pressed="${x === group}">${x}<span class="n">${M.subjects.filter(s => s.group === x).length}</span></button>`).join("");
+  g.querySelectorAll("button").forEach(b => b.onclick = () => { group = b.dataset.g; location.hash = ""; render(); groups(); });
+}
+
+function latest() {
+  const all = [];
+  for (const s of M.subjects) for (const v of s.versions) if (v.date) all.push({s, v});
+  all.sort((a, b) => (b.v.date + b.v.version).localeCompare(a.v.date + a.v.version) || (b.v.kind === "Sketch") - (a.v.kind === "Sketch"));
+  const pick = []; const seen = new Set();
+  for (const x of all) { if (x.v.kind === "Sketch" || !seen.has(x.s.id)) { pick.push(x); seen.add(x.s.id); } if (pick.length >= 4) break; }
+  return `<section class="latest"><h2>Latest additions</h2><div class="latest-row">` + pick.map(x => {
+    const m = x.v.media[0] || {};
+    return `<button class="latest-card" data-id="${x.s.id}"><img src="${esc(m.src)}" alt="" class="${smooth(m) ? "smooth" : ""}"><span><b>${esc(x.s.name)}</b><br><span class="k">${esc(x.v.kind)} · v${esc(x.v.version)}${x.v.author ? " · " + esc(x.v.author) : ""}</span></span></button>`;
+  }).join("") + `</div></section>`;
+}
+
+function grid() {
+  const q = query.toLowerCase();
+  const list = M.subjects.filter(s => (q ? (s.name + " " + s.id).toLowerCase().includes(q) : s.group === group));
+  if (!list.length) return `<p class="empty">Nothing matches “${esc(query)}”.</p>`;
+  return `<div class="grid">` + list.map(s => {
+    const kinds = [...new Set(s.versions.map(v => v.kind))];
+    const cover = s.versions[0]?.media[0];
+    return `<button class="card" data-id="${s.id}"><div class="pic">${cover ? `<img src="${esc(cover.src)}" alt="" loading="lazy" class="${smooth(cover) ? "smooth" : ""}">` : ""}</div>
+      <div class="meta"><span class="name">${esc(s.name)}</span><span class="sub">${s.versions.length} version${s.versions.length === 1 ? "" : "s"}${s.note ? " · " + esc(s.note) : ""}</span>
+      <span class="kinds">${kinds.map(k => `<span class="kind ${kindClass(k)}">${esc(k)}</span>`).join("")}</span></div></button>`;
+  }).join("") + `</div>`;
+}
+
+function detail(s) {
+  const chrono = [...s.versions].reverse();
+  const evo = chrono.map((v, i) => {
+    const m = v.media.find(x => x.label === "Walk") || v.media[0];
+    return (i ? `<span class="arrow" aria-hidden="true">→</span>` : "") + (m ? `<figure><img src="${esc(m.src)}" alt="${esc(v.kind)} v${esc(v.version)}" class="${smooth(m) ? "smooth" : ""}"><figcaption>v${esc(v.version)} · ${esc(v.kind)}</figcaption></figure>` : "");
+  }).join("");
+  const vs = s.versions.map(v => {
+    const tiles = v.media.map(m => {
+      const scale = m.type === "anim" ? 1.6 : (m.type === "pixel" ? 1 : 1);
+      const size = m.type === "anim" && m.w ? `width="${Math.round(m.w * scale)}" height="${Math.round(m.h * scale)}"` : "";
+      const style = m.type === "image" ? `style="max-height:260px;max-width:min(420px,80vw)"` : (m.type === "pixel" ? `style="max-height:200px"` : "");
+      return `<figure class="tile ${m.type}"><div class="st"><img src="${esc(m.src)}" alt="${esc(m.label)}" ${size} ${style} loading="lazy" class="${smooth(m) ? "smooth" : ""}"></div><figcaption>${esc(m.label)}</figcaption></figure>`;
+    }).join("");
+    return `<article class="version"><div class="vside"><div class="v">v${esc(v.version)}</div><div class="d">${esc(v.date || "date not recorded")}</div><div class="a">${esc(v.author || "")}</div><span class="kind ${kindClass(v.kind)}">${esc(v.kind)}</span></div>
+      <div class="vmain"><h3>${esc(v.title)}</h3>${v.notes ? `<p>${esc(v.notes)}</p>` : ""}<div class="media">${tiles || '<span class="empty">No pictures for this version.</span>'}</div></div></article>`;
+  }).join("");
+  return `<section class="detail"><button class="back" id="back">‹ All ${esc(s.group.toLowerCase())}</button>
+    <div class="dhead"><h2>${esc(s.name)}</h2><span class="group">${esc(s.group)} · ${s.versions.length} version${s.versions.length === 1 ? "" : "s"}</span></div>
+    ${chrono.length > 1 ? `<h3 style="font-family:var(--display);margin:6px 0 0">How it changed</h3><div class="evo">${evo}</div>` : ""}
+    ${vs}</section>`;
+}
+
+function render() {
+  const h = location.hash.slice(1);
+  const s = h ? M.subjects.find(x => slug(x.id) === h) : null;
+  document.getElementById("bar").style.display = s ? "none" : "";
+  if (s) {
+    view.innerHTML = detail(s);
+    document.getElementById("back").onclick = () => { group = s.group; location.hash = ""; };
+    window.scrollTo(0, 0);
+  } else {
+    view.innerHTML = (query ? "" : latest()) + grid();
+  }
+  view.querySelectorAll("[data-id]").forEach(b => b.onclick = () => { location.hash = slug(b.dataset.id); });
+  view.querySelectorAll(".tile.sketch img").forEach(img => img.onclick = () => { const lb = document.getElementById("lb"); lb.querySelector("img").src = img.src; lb.classList.add("on"); });
+}
+
+document.getElementById("lb").onclick = e => e.currentTarget.classList.remove("on");
+document.getElementById("q").oninput = e => { query = e.target.value.trim(); if (location.hash) location.hash = ""; else render(); };
+document.querySelectorAll(".swatch").forEach(b => b.onclick = () => {
+  document.body.style.setProperty("--stage", b.dataset.stage);
+  document.querySelectorAll(".swatch").forEach(x => x.setAttribute("aria-pressed", x === b));
+  try { localStorage.setItem("sd-stage", b.dataset.stage); } catch (e) {}
+});
+try { const st = localStorage.getItem("sd-stage"); if (st) document.querySelector(`.swatch[data-stage="${st}"]`)?.click(); } catch (e) {}
+window.addEventListener("hashchange", render);
+fetch("manifest.json").then(r => r.json()).then(m => { M = m; stats(); groups(); render(); })
+  .catch(() => { view.innerHTML = '<p class="empty">The archive list could not be loaded. Reload the page.</p>'; });
+</script>
+</body>
+</html>

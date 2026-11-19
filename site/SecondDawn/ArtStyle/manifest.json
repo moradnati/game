@@ -1,0 +1,3091 @@
+{
+ "updated": "2026-11-19",
+ "subjects": [
+  {
+   "id": "civ:sporeriders",
+   "name": "Sporeriders",
+   "group": "Peoples",
+   "cover": "media/ill/civ_sporeriders.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_sporeriders.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "The first pixel colonist",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 105,
+       "h": 95
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 105,
+       "h": 95
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__work.webp",
+       "label": "Work",
+       "w": 105,
+       "h": 95
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__eat.webp",
+       "label": "Eat",
+       "w": 105,
+       "h": 95
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__chat.webp",
+       "label": "Chat",
+       "w": 105,
+       "h": 95
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/sporeriders__v0.1__sleep.webp",
+       "label": "Sleep",
+       "w": 105,
+       "h": 95
+      }
+     ],
+     "notes": "The prototype's own sprite: a waddle instead of hops, the spore dance while building."
+    }
+   ]
+  },
+  {
+   "id": "home:sporeriders",
+   "name": "Sporeriders home",
+   "group": "Homes",
+   "cover": "media/still/home_sporeriders.png",
+   "versions": [
+    {
+     "version": "0.10",
+     "date": "2026-11-18",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_sporeriders.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:humans",
+   "name": "Humans",
+   "group": "Peoples",
+   "cover": "media/anim/humans__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 113,
+       "h": 183
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 113,
+       "h": 183
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__work.webp",
+       "label": "Work",
+       "w": 113,
+       "h": 183
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 113,
+       "h": 183
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 113,
+       "h": 183
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/humans__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 113,
+       "h": 183
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_humans.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_humans.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:humans",
+   "name": "Humans home",
+   "group": "Homes",
+   "cover": "media/still/home_humans.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_humans.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:tidekin",
+   "name": "Tidekin",
+   "group": "Peoples",
+   "cover": "media/anim/tidekin__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 113,
+       "h": 185
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 113,
+       "h": 185
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__work.webp",
+       "label": "Work",
+       "w": 113,
+       "h": 185
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 113,
+       "h": 185
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 113,
+       "h": 185
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tidekin__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 113,
+       "h": 185
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_tidekin.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_tidekin.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:tidekin",
+   "name": "Tidekin home",
+   "group": "Homes",
+   "cover": "media/still/home_tidekin.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_tidekin.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:geodes",
+   "name": "Geodes",
+   "group": "Peoples",
+   "cover": "media/anim/geodes__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 114,
+       "h": 178
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 114,
+       "h": 178
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__work.webp",
+       "label": "Work",
+       "w": 114,
+       "h": 178
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 114,
+       "h": 178
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 114,
+       "h": 178
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/geodes__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 114,
+       "h": 178
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_geodes.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_geodes.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:geodes",
+   "name": "Geodes home",
+   "group": "Homes",
+   "cover": "media/still/home_geodes.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_geodes.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:pufflings",
+   "name": "Pufflings",
+   "group": "Peoples",
+   "cover": "media/anim/pufflings__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 100,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 100,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__work.webp",
+       "label": "Work",
+       "w": 100,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 100,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 100,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/pufflings__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 100,
+       "h": 115
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_pufflings.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_pufflings.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:pufflings",
+   "name": "Pufflings home",
+   "group": "Homes",
+   "cover": "media/still/home_pufflings.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_pufflings.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:shellsmiths",
+   "name": "Shellsmiths",
+   "group": "Peoples",
+   "cover": "media/anim/shellsmiths__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 123,
+       "h": 100
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 123,
+       "h": 100
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__work.webp",
+       "label": "Work",
+       "w": 123,
+       "h": 100
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 123,
+       "h": 100
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 123,
+       "h": 100
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellsmiths__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 123,
+       "h": 100
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_shellsmiths.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_shellsmiths.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:shellsmiths",
+   "name": "Shellsmiths home",
+   "group": "Homes",
+   "cover": "media/still/home_shellsmiths.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_shellsmiths.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:kuppa",
+   "name": "Kuppa",
+   "group": "Peoples",
+   "cover": "media/anim/kuppa__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 165,
+       "h": 122
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 165,
+       "h": 122
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__work.webp",
+       "label": "Work",
+       "w": 165,
+       "h": 122
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 165,
+       "h": 122
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 165,
+       "h": 122
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kuppa__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 165,
+       "h": 122
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_kuppa.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_kuppa.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:kuppa",
+   "name": "Kuppa home",
+   "group": "Homes",
+   "cover": "media/still/home_kuppa.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_kuppa.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:nokti",
+   "name": "Nokti",
+   "group": "Peoples",
+   "cover": "media/anim/nokti__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 264,
+       "h": 62
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 264,
+       "h": 62
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__work.webp",
+       "label": "Work",
+       "w": 264,
+       "h": 62
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 264,
+       "h": 62
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 264,
+       "h": 62
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/nokti__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 264,
+       "h": 62
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_nokti.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_nokti.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:nokti",
+   "name": "Nokti home",
+   "group": "Homes",
+   "cover": "media/still/home_nokti.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_nokti.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:gourdlings",
+   "name": "Gourdlings",
+   "group": "Peoples",
+   "cover": "media/anim/gourdlings__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 120,
+       "h": 149
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 120,
+       "h": 149
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__work.webp",
+       "label": "Work",
+       "w": 120,
+       "h": 149
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 120,
+       "h": 149
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 120,
+       "h": 149
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/gourdlings__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 120,
+       "h": 149
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_gourdlings.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_gourdlings.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:gourdlings",
+   "name": "Gourdlings home",
+   "group": "Homes",
+   "cover": "media/still/home_gourdlings.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_gourdlings.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:shellmonks",
+   "name": "Shellmonks",
+   "group": "Peoples",
+   "cover": "media/anim/shellmonks__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 156,
+       "h": 171
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 156,
+       "h": 171
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__work.webp",
+       "label": "Work",
+       "w": 156,
+       "h": 171
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 156,
+       "h": 171
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 156,
+       "h": 171
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/shellmonks__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 156,
+       "h": 171
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_shellmonks.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_shellmonks.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:shellmonks",
+   "name": "Shellmonks home",
+   "group": "Homes",
+   "cover": "media/still/home_shellmonks.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_shellmonks.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:echofolk",
+   "name": "Echofolk",
+   "group": "Peoples",
+   "cover": "media/sketch/2026-11-19_echofolk_sketch.jpg",
+   "versions": [
+    {
+     "version": "0.14.1",
+     "date": "2026-11-19",
+     "title": "Echofolk \u2014 detailed sketch",
+     "author": "Ariel",
+     "kind": "Sketch",
+     "media": [
+      {
+       "type": "sketch",
+       "src": "media/sketch/2026-11-19_echofolk_sketch.jpg",
+       "label": "Sketch: body, legs and claws, ear & drum, mouth options"
+      },
+      {
+       "type": "sketch",
+       "src": "media/sketch/2026-11-19_echofolk_color_reference.jpg",
+       "label": "Colour reference: an iridescent leaf beetle"
+      }
+     ],
+     "notes": "The shell should shift like a rainbow leaf beetle: dark green, light green and purple depending on the angle. The mouth runs around the body on a belt; Ariel prefers a mouth that travels along the belt and dilates open like an iris (rather than tooth-like plates), so the three hands can put things in from any side. No eyes: echolocation from a tufted hammer that vibrates, a dish that listens and a resonance box (drum) that amplifies. The hammer winds up and releases in one strike, then has to recharge \u2014 a possible limitation."
+    },
+    {
+     "version": "0.14.1",
+     "date": "2026-11-19",
+     "title": "Ariel's design in the game",
+     "author": "Claude, from Ariel's sketch",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__idle.webp",
+       "label": "Idle",
+       "w": 264,
+       "h": 192
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__walk.webp",
+       "label": "Walk",
+       "w": 264,
+       "h": 192
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__work.webp",
+       "label": "Work",
+       "w": 264,
+       "h": 192
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__eat.webp",
+       "label": "Eat",
+       "w": 264,
+       "h": 192
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__chat.webp",
+       "label": "Chat",
+       "w": 264,
+       "h": 192
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.14.1__sleep.webp",
+       "label": "Sleep",
+       "w": 264,
+       "h": 192
+      }
+     ],
+     "notes": "Iridescent shell that shifts as it moves, a mouth sliding along the belt and dilating like an iris, a hammer that winds back and snaps a sonar pulse, three hairy spider legs with claws."
+    },
+    {
+     "version": "0.14.1",
+     "date": "2026-11-19",
+     "title": "Illustration after Ariel's sketch",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_echofolk.png",
+       "label": "Menus, Inventory, world bible"
+      }
+     ]
+    },
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First pixel animation",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__idle.webp",
+       "label": "Idle",
+       "w": 174,
+       "h": 169
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__walk.webp",
+       "label": "Walk",
+       "w": 174,
+       "h": 169
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__work.webp",
+       "label": "Work",
+       "w": 174,
+       "h": 169
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__eat.webp",
+       "label": "Eat",
+       "w": 174,
+       "h": 169
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__chat.webp",
+       "label": "Chat",
+       "w": 174,
+       "h": 169
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/echofolk__v0.12-legacy__sleep.webp",
+       "label": "Sleep",
+       "w": 174,
+       "h": 169
+      }
+     ],
+     "notes": "A flat disc on three spider legs, three hanging arms, sonar arcs."
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing (before Ariel's design)",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_echofolk_legacy.png",
+       "label": "Dashed: the legs stretched to full height"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:echofolk",
+   "name": "Echofolk home",
+   "group": "Homes",
+   "cover": "media/still/home_echofolk.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_echofolk.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:manahorns",
+   "name": "Manahorns",
+   "group": "Peoples",
+   "cover": "media/anim/manahorns__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 190,
+       "h": 110
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 190,
+       "h": 110
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__work.webp",
+       "label": "Work",
+       "w": 190,
+       "h": 110
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 190,
+       "h": 110
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 190,
+       "h": 110
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/manahorns__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 190,
+       "h": 110
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_manahorns.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_manahorns.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:manahorns",
+   "name": "Manahorns home",
+   "group": "Homes",
+   "cover": "media/still/home_manahorns.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_manahorns.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:twintrunks",
+   "name": "Twintrunks",
+   "group": "Peoples",
+   "cover": "media/anim/twintrunks__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 205,
+       "h": 147
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 205,
+       "h": 147
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__work.webp",
+       "label": "Work",
+       "w": 205,
+       "h": 147
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 205,
+       "h": 147
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 205,
+       "h": 147
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/twintrunks__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 205,
+       "h": 147
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_twintrunks.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_twintrunks.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:twintrunks",
+   "name": "Twintrunks home",
+   "group": "Homes",
+   "cover": "media/still/home_twintrunks.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_twintrunks.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "civ:weavers",
+   "name": "Weavers",
+   "group": "Peoples",
+   "cover": "media/anim/weavers__v0.12__idle.webp",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "First art pass",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__idle.webp",
+       "label": "Idle",
+       "w": 152,
+       "h": 191
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__walk.webp",
+       "label": "Walk",
+       "w": 152,
+       "h": 191
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__work.webp",
+       "label": "Work",
+       "w": 152,
+       "h": 191
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__eat.webp",
+       "label": "Eat",
+       "w": 152,
+       "h": 191
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__chat.webp",
+       "label": "Chat",
+       "w": 152,
+       "h": 191
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/weavers__v0.12__sleep.webp",
+       "label": "Sleep",
+       "w": 152,
+       "h": 191
+      }
+     ]
+    },
+    {
+     "version": "0.13",
+     "date": "2026-11-19",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/civ_weavers.png",
+       "label": "Menus and Inventory"
+      }
+     ]
+    },
+    {
+     "version": "0.11",
+     "date": "2026-11-18",
+     "title": "Stand-in body",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/standin_weavers.png",
+       "label": "Before each people had its own look"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "home:weavers",
+   "name": "Weavers home",
+   "group": "Homes",
+   "cover": "media/still/home_weavers.png",
+   "versions": [
+    {
+     "version": "0.12",
+     "date": "2026-11-19",
+     "title": "Hut and family house",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/home_weavers.png",
+       "label": "Hut (the family house is the same, larger)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wild:bellows",
+   "name": "Bellows",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_bellows.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_bellows.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/bellows__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 80,
+       "h": 88
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/bellows__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 80,
+       "h": 88
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:bloomhive",
+   "name": "Bloomhive",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_bloomhive.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_bloomhive.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:brewbeast",
+   "name": "Brewbeast",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_brewbeast.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_brewbeast.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/brewbeast__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 100,
+       "h": 65
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/brewbeast__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 100,
+       "h": 65
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:bubble_raft",
+   "name": "Bubble raft",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_bubble_raft.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_bubble_raft.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:duelhorse",
+   "name": "Duelhorse",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_duelhorse.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_duelhorse.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/duelhorse__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 67,
+       "h": 87
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/duelhorse__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 67,
+       "h": 87
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:dunewalker",
+   "name": "Dunewalker",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_dunewalker.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_dunewalker.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/dunewalker__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 173,
+       "h": 115
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/dunewalker__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 173,
+       "h": 115
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:five_cow",
+   "name": "Five-cow",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_five_cow.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_five_cow.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/five_cow__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 90,
+       "h": 87
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/five_cow__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 90,
+       "h": 87
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:flatcat",
+   "name": "Flatcat",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_flatcat.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_flatcat.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/flatcat__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 98,
+       "h": 41
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/flatcat__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 98,
+       "h": 41
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:glidemites",
+   "name": "Glidemites",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_glidemites.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_glidemites.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/glidemites__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 76,
+       "h": 51
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/glidemites__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 76,
+       "h": 51
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:grabloon",
+   "name": "Grabloon",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_grabloon.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_grabloon.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:hauler_beetle",
+   "name": "Hauler beetle",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_hauler_beetle.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_hauler_beetle.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/hauler_beetle__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 88,
+       "h": 64
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/hauler_beetle__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 88,
+       "h": 64
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:hornback",
+   "name": "Hornback",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_hornback.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_hornback.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/hornback__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 88,
+       "h": 59
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/hornback__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 88,
+       "h": 59
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:hush_owl",
+   "name": "Hush owl",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_hush_owl.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_hush_owl.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/hush_owl__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 76,
+       "h": 70
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/hush_owl__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 76,
+       "h": 70
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:kitefox",
+   "name": "Kitefox",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_kitefox.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_kitefox.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/kitefox__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 88,
+       "h": 53
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/kitefox__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 88,
+       "h": 53
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:mirror_crab",
+   "name": "Mirror crab",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_mirror_crab.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_mirror_crab.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/mirror_crab__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 86,
+       "h": 52
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/mirror_crab__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 86,
+       "h": 52
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:moses_cow",
+   "name": "Moses cow",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_moses_cow.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_moses_cow.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:rootsnout",
+   "name": "Rootsnout",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_rootsnout.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_rootsnout.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/rootsnout__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 88,
+       "h": 64
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/rootsnout__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 88,
+       "h": 64
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:shell_elder",
+   "name": "Shell Elder",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_shell_elder.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_shell_elder.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:sky_jelly",
+   "name": "Sky jelly",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_sky_jelly.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_sky_jelly.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:tide_skipper",
+   "name": "Tide skipper",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_tide_skipper.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_tide_skipper.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/tide_skipper__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 75,
+       "h": 46
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tide_skipper__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 75,
+       "h": 46
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:tumblepod",
+   "name": "Tumblepod",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_tumblepod.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_tumblepod.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/tumblepod__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 78,
+       "h": 75
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/tumblepod__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 78,
+       "h": 75
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:volt_snail",
+   "name": "Volt snail",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_volt_snail.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_volt_snail.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/volt_snail__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 75,
+       "h": 57
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/volt_snail__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 75,
+       "h": 57
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:walking_bush",
+   "name": "Walking bush",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_walking_bush.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_walking_bush.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "wild:wandering_stone",
+   "name": "Wandering stone",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_wandering_stone.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_wandering_stone.png",
+       "label": "Codex"
+      }
+     ]
+    },
+    {
+     "version": "0.1",
+     "date": "",
+     "title": "In-game sprite",
+     "author": "Claude",
+     "kind": "Pixel animation",
+     "media": [
+      {
+       "type": "anim",
+       "src": "media/anim/wandering_stone__v0.1__idle.webp",
+       "label": "Idle",
+       "w": 76,
+       "h": 57
+      },
+      {
+       "type": "anim",
+       "src": "media/anim/wandering_stone__v0.1__walk.webp",
+       "label": "Walk",
+       "w": 76,
+       "h": 57
+      }
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "wild:wickmoths",
+   "name": "Wickmoths",
+   "group": "Wildlife",
+   "cover": "media/ill/wild_wickmoths.png",
+   "versions": [
+    {
+     "version": "0.13",
+     "date": "",
+     "title": "World bible drawing",
+     "author": "Claude",
+     "kind": "Illustration",
+     "media": [
+      {
+       "type": "image",
+       "src": "media/ill/wild_wickmoths.png",
+       "label": "Codex"
+      }
+     ]
+    }
+   ],
+   "note": "Not in the game yet"
+  },
+  {
+   "id": "item:backpack",
+   "name": "Backpack",
+   "group": "Items",
+   "cover": "media/still/item_backpack.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_backpack.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:basket",
+   "name": "Basket",
+   "group": "Items",
+   "cover": "media/still/item_basket.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_basket.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:belt_pouch",
+   "name": "Belt pouch",
+   "group": "Items",
+   "cover": "media/still/item_belt_pouch.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_belt_pouch.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:berries",
+   "name": "Berries",
+   "group": "Items",
+   "cover": "media/still/item_berries.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_berries.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:cactus_fruit",
+   "name": "Cactus fruit",
+   "group": "Items",
+   "cover": "media/still/item_cactus_fruit.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_cactus_fruit.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:carry_harness",
+   "name": "Carry harness",
+   "group": "Items",
+   "cover": "media/still/item_carry_harness.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_carry_harness.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:crate",
+   "name": "Crate",
+   "group": "Items",
+   "cover": "media/still/item_crate.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_crate.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:crystal",
+   "name": "Crystal",
+   "group": "Items",
+   "cover": "media/still/item_crystal.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_crystal.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:dried_meat",
+   "name": "Dried meat",
+   "group": "Items",
+   "cover": "media/still/item_dried_meat.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_dried_meat.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:hide",
+   "name": "Hide",
+   "group": "Items",
+   "cover": "media/still/item_hide.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_hide.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:hide_cloak",
+   "name": "Hide cloak",
+   "group": "Items",
+   "cover": "media/still/item_hide_cloak.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_hide_cloak.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:ice",
+   "name": "Ice",
+   "group": "Items",
+   "cover": "media/still/item_ice.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_ice.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:meat",
+   "name": "Meat",
+   "group": "Items",
+   "cover": "media/still/item_meat.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_meat.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:mushroom",
+   "name": "Mushroom",
+   "group": "Items",
+   "cover": "media/still/item_mushroom.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_mushroom.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:obsidian",
+   "name": "Obsidian",
+   "group": "Items",
+   "cover": "media/still/item_obsidian.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_obsidian.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:reeds",
+   "name": "Reeds",
+   "group": "Items",
+   "cover": "media/still/item_reeds.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_reeds.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:scraps",
+   "name": "Scraps",
+   "group": "Items",
+   "cover": "media/still/item_scraps.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_scraps.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:shell",
+   "name": "Shell",
+   "group": "Items",
+   "cover": "media/still/item_shell.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_shell.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:sling",
+   "name": "Sling",
+   "group": "Items",
+   "cover": "media/still/item_sling.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_sling.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:spore_tunic",
+   "name": "Spore tunic",
+   "group": "Items",
+   "cover": "media/still/item_spore_tunic.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_spore_tunic.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:stone",
+   "name": "Stone",
+   "group": "Items",
+   "cover": "media/still/item_stone.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_stone.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:stone_spear",
+   "name": "Stone spear",
+   "group": "Items",
+   "cover": "media/still/item_stone_spear.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_stone_spear.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:war_staff",
+   "name": "War staff",
+   "group": "Items",
+   "cover": "media/still/item_war_staff.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_war_staff.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "item:wood",
+   "name": "Wood",
+   "group": "Items",
+   "cover": "media/still/item_wood.png",
+   "versions": [
+    {
+     "version": "0.x",
+     "date": "",
+     "title": "Item icon",
+     "author": "Claude",
+     "kind": "Pixel sprite",
+     "media": [
+      {
+       "type": "pixel",
+       "src": "media/still/item_wood.png",
+       "label": "Inventory and map"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "groups": [
+  "Peoples",
+  "Wildlife",
+  "Homes",
+  "Items"
+ ]
+}
